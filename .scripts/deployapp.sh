@@ -2,9 +2,11 @@
 set -e
 
 echo "Deployment started ..."
+echo "Deployment Native App ..."
 
 # Enter maintenance mode or return true
 # if already is in maintenance mode
+pwd
 mkdir maintenance 
 cp maintenance.html maintenance/
 
